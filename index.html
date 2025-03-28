@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body>
+    <!-- Header -->
+     
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>K</span>avinKumar</h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>KavinKumar</span><br> From India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="./images/IMG_8705.jpg" height="500px" width="350px">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="title">About Me</h1>
+                    <p>Recent graduate and enthusiastic web developer with a solid foundation in front-end and back-end
+                        technologies, including HTML, CSS, and JavaScript,Core Java along with basic knowledge of modern
+                        frameworks like React.Completed multiple projects during internships, showcasing a strong
+                        ability to translate design wireframes into high-quality code and implement user-focused solutions.
+                        Knowledge in working with version control systems like Git and Github.
+                        Eager to stay updated with the latest trends in web development and continuously enhance my skill
+                        set. Ready to contribute to innovative web projects, bringing creativity, technical expertise, and a
+                        passion for coding to a dynamic and growth-oriented company
+                    </p>
+
+                    <div class="title1">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2017-2018</span><br>Completed 12th with a percentage of 76% at Cheran Matric Hr Sec School</li>
+                            <li><span>2018-2021</span><br>Completed Diploma(Metallurgy) with a percentage of 92% at Sakthi Polytechnic College</li>
+                            <li><span>2021-2024</span><br>Completed BE(Mechatronics) with a CGPA of 7.51 at Bannari Amman Institute of Technology</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>2025(Feb-Mar)</span><br>Completed internship at virutal technologies based on web development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <main class="main3" id="skills">
+        <div class="skill-head"><h1>Skills</h1></div>
+         <div class="skill-start">
+            <div class="skills">
+                <div class="skill">
+                    <h2>Here is my technical skills to represent my expertise</h2>
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">JAVASCRIPT</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="60%" style="max-width: 60%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-name">REACT</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="50%" style="max-width: 50%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-video">
+                
+            </div>
+         </div>
+
+         <!-- Contact -->
+
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>kavinkumar122000@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>7708858241</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/kavinkumar_CV.pdf" download><button class="btn btn2">Download CV</button></a>
+                    </div>
+                    <div class="contact-right">
+
+                        <form>
+
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message" ></textarea>
+                            <button type="submit" class="btn3">Submit</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ KavinKumar.Made with <i class="fa-solid fa-heart"></i> by Kavin</p>
+            </div>
+         </div>
+    </main>
+    
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+             for(tablink of tablinks){
+                 tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+
+            document.getElementById(tabname).classList.add("active-tab")
+    
+        }
+
+     </script>
+
+     <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+     </script>
+
+</body>
+</html>
