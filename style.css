@@ -141,11 +141,7 @@ nav ul li a:hover{
     justify-content: space-evenly;
     
 }
-.skill-video{
-    display: flex;
-    align-items: center;
-    margin-right: 200px;
-}
+
 .skill-head{
     display: flex;
     justify-content: center;
@@ -155,9 +151,10 @@ nav ul li a:hover{
 }
 .skills{
     width: 50%;
-    margin-right: 250px;
+    margin-right: 200px;
     max-width: 600px;
     padding: 0 20px;
+    margin-left: 100px;
 }
 .skill h2{
     font-family: "Poppins",sans-serif;
